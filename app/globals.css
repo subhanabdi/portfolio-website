@@ -23,26 +23,26 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px #212326 inset;
-  -webkit-text-fill-color: #ceced4;
+  -webkit-text-fill-color: #ffffff;
 }
 
 ::-webkit-scrollbar {
   width: 5px;
   height: 5px;
-  background: #000;
+  background: #1215c9;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.147);
+  background: rgb(255, 255, 255);
   border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.147);
+  background: rgb(255, 248, 248);
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background: rgba(255, 255, 255, 0.147);
+  background: rgb(255, 255, 255);
 }
 
 .swiper {
@@ -66,3 +66,58 @@ input:-webkit-autofill:active {
 .swiper-pagination-bullet {
   background-color: #fff !important;
 }
+
+.sm\:py-52 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+
+.xl\:px-56 {
+  padding-left: 7rem !important;
+  padding-right: 8rem !important;
+}
+
+.border-AAsecondary {
+  border-color: #7fc4ff;
+}
+
+.grwqs {
+  border-radius: 1px;
+  border-width: 1px;
+  color: white;
+  width: 97px;
+  padding: 10px 4px;
+  font-size: 9px !important;
+  text-align: center;
+  border-color: #7fc4ff;
+}
+
+span.text-AAsecondary.font-sans.text-sm.sm\:text-xl {
+  color: #7fc4ff;
+}
+
+.text-AAsecondary {
+  color: #7fc4ff !important;
+}
+
+.xl\:w-\[992px\] {
+  display: none !important;
+}
+
+.py-24 {
+  padding-top: 3rem !important;
+  padding-bottom: 4rem !important;
+}
+
+
+/* .tewq {
+  font-size: 11px;
+  width: 940px;
+  padding-left: unset !important;
+}
+
+.tefef {
+  position: relative;
+  left: 110px;
+} */

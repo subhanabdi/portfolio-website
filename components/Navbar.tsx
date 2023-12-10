@@ -15,13 +15,25 @@ export const Navbar = () => {
         </Link>
 
         <div className="flex flex-row items-center justify-between gap-8 text-sm font-medium tracking-wider text-neutral-400 sm:gap-16">
-          <Link href="/projects">
+        <Link href="/#aboutSection">
+            <div className="transition-all duration-300 hover:-translate-y-1 active:translate-y-1">
+              <span className="text-xs sm:text-sm">About Me</span>
+            </div>
+          </Link>
+
+          <Link href="/#ExperienceSection">
+            <div className="transition-all duration-300 hover:-translate-y-1 active:translate-y-1">
+              <span className="text-xs sm:text-sm">Experience</span>
+            </div>
+          </Link>
+
+          <Link href="/#SomethingIveBuiltSection">
             <div className="transition-all duration-300 hover:-translate-y-1 active:translate-y-1">
               <span className="text-xs sm:text-sm">Projects</span>
             </div>
           </Link>
 
-          <Link href="/contact">
+          <Link href="/#contactSection">
             <div className="transition-all duration-300 hover:-translate-y-1 active:translate-y-1">
               <span className="text-xs sm:text-sm">Contact</span>
             </div>

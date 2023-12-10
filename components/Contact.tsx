@@ -13,7 +13,28 @@ export const Contact: React.FC = () => {
   }, []);
 
   return (
+
+<>
+    <div id="contactSection" data-aos="fade-up" className="flex flex-col items-center justify-center py-24 space-y-12 bg-AAprimary">
+
+    <section className="flex flex-row items-center">
+            <div className="flex flex-row items-center">
+              <span className={"flex-none h-4 md:h-6 w-4 md:w-5 text-AAsecondary"} ></span>
+              <span className="text-AAsecondary font-sans text-sm  sm:text-xl"> 04.</span>
+            </div>
+    
+            <span className="text-gray-200 opacity-85 font-bold tracking-wider text-lg md:text-2xl px-3">
+            What's Next?
+            </span>
+            <div className="bg-gray-400 h-[0.2px] w-16 sm:w-44 md:w-80"></div>
+          </section>
+          </div>
+
     <div className="mx-auto flex flex-col items-center justify-center gap-20 px-2 pb-16 pt-36 sm:px-8 lg:flex-row lg:py-20">
+      
+
+ 
+      
       <article className="grid max-w-2xl flex-1 gap-10 text-center">
         <h1 className="text-4xl font-extrabold uppercase tracking-widest">
           Contact
@@ -65,7 +86,7 @@ export const Contact: React.FC = () => {
         <h1 className="text-center text-xl font-extrabold uppercase tracking-widest sm:text-4xl">
           Contact Form
         </h1>
-
+{/* 
         <p className="text-center text-sm tracking-wider text-neutral-400">
           It actually works, I promise.{" "}
           <a
@@ -76,7 +97,7 @@ export const Contact: React.FC = () => {
             FormSubmit
           </a>
           &apos;s got my back!
-        </p>
+        </p> */}
 
         <div className="grid gap-8">
           <InputField type="text" name="name" placeholder="Your name" />
@@ -100,5 +121,6 @@ export const Contact: React.FC = () => {
 
       <Toaster position="bottom-center" />
     </div>
+    </>
   );
 };
