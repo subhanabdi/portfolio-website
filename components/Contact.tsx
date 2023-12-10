@@ -41,10 +41,10 @@ export const Contact: React.FC = () => {
         </h1>
 
         <p className="max-w-lg text-sm leading-8 tracking-wider text-neutral-400">
-          Whether you&apos;re interested in networking, or career advice, or
-          want to have a casual conversation, I look forward to communicating
-          with you and learning from our interactions!
-        </p>
+  Whether you&apos;re interested in networking, or career advice, or
+  want to have a casual conversation, I look forward to communicating
+  with you and learning from our interactions!
+</p>
 
         <div className="grid gap-10 text-sm">
           <div className="grid gap-2">
