@@ -39,33 +39,32 @@ import Image from "next/image";
       <div className="w-full flex flex-col md:flex-row space-y-8 md:space-y-0  md:space-x-8 sm:space-x-2 ">
         <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
           <div className="font-Header ">
-            <span className="text-gray-400 ">
-              Hello! I'm Subhan Abidi, a Full Stack Engineer with 5 years of experience crafting 
-              resilient web applications.
-               Specializing in <span className="text-AAsecondary">React.js, Node.js, PHP, Python, Next.js, and TypeScript,</span>
-                I've contributed to diverse projects in health-tech, 
-               e-commerce, and AI.
-            </span>
+          <span className="text-gray-400 ">
+  Hello! I&apos;m Subhan Abidi, a Full Stack Engineer with 5 years of experience crafting 
+  resilient web applications. Specializing in <span className="text-AAsecondary">React.js, Node.js, PHP, Python, Next.js, and TypeScript,</span>
+  I&apos;ve contributed to diverse projects in health-tech, 
+  e-commerce, and AI.
+</span>
           </div>
           <div className="font-Header ">
-            <span className="text-gray-400 ">
-            My journey involves collaborating with cross-functional teams to deliver high-quality code and solutions. 
-            I thrive on staying ahead in technology, ensuring my work aligns with industry 
-            standards and anticipates future trends.{" "}
-              , I'm dedicated to continuous learning, 
-              always seeking new skills and tools to enhance my capabilities. As a professional
-               who values effective communication and teamwork, 
-               I'm ready to bring my adaptable mindset to contribute meaningfully to your projects.{" "}
-              , my passion for  <span className="text-AAsecondary">(Full-Stack-Engnineer)  </span>and continuous
-              learning drives me to make a positive impact and advance technology.
-            </span>
+          <span className="text-gray-400 ">
+  My journey involves collaborating with cross-functional teams to deliver high-quality code and solutions. 
+  I thrive on staying ahead in technology, ensuring my work aligns with industry 
+  standards and anticipates future trends.{" "}
+  , I&apos;m dedicated to continuous learning, 
+  always seeking new skills and tools to enhance my capabilities. As a professional
+  who values effective communication and teamwork, 
+  I&apos;m ready to bring my adaptable mindset to contribute meaningfully to your projects.{" "}
+  , my passion for  <span className="text-AAsecondary">(Full-Stack-Engineer)  </span>and continuous
+  learning drives me to make a positive impact and advance technology.
+</span>
           </div>
          
 
           <div className="font-Header tracking-wide">
-            <span className="text-gray-400  ">
-              Here are a few technologies I&apos;ve been working with recently :
-            </span>
+          <span className="text-gray-400  ">
+  Here are a few technologies I&apos;ve been working with recently :
+</span>
           </div>
           <div className="font-Header tracking-wide flex flex-row space-x-16">
 {/* First column */}
