@@ -75,7 +75,7 @@ export default function Home() {
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
         I&apos;m a <span className="text-AAsecondary">Full Stack engineer</span>, I have developed robust and scalable web applications for various industries, such as  <br className="2xl:block hidden" />
-        health-tech, e-commerce, and AI, using React.js, Node.js, PHP, Python, Next.js, TypeScript, JavaScript, and other cutting-edge technologies.  <span className="text-AAsecondary"> I have over 4+ years of professional experience,</span>,
+        health-tech, e-commerce, and AI, using <span className="text-AAsecondary"> React.js, Node.js, PHP, Python, Next.js, TypeScript, JavaScript, and other</span> cutting-edge technologies.  <span className="text-AAsecondary"> I have over 4+ years of professional experience,</span>,
          working with diverse and crossfunctional teams,<br className="2xl:block hidden"/>
          delivering high-quality code  <span className="text-AAsecondary">and solutions, and continuously learning new skills and tools.</span>. 
        
