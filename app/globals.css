@@ -54,19 +54,6 @@ input:-webkit-autofill:active {
   width: fit-content !important;
 }
 
-@media screen and (max-width: 768px) {
-  .swiper-slide {
-    width: 100% !important;
-  }
-}
-.swiper-pagination-bullet-active {
-  background-color: #fff !important;
-}
-
-.swiper-pagination-bullet {
-  background-color: #fff !important;
-}
-
 .sm\:py-52 {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
@@ -111,13 +98,46 @@ span.text-AAsecondary.font-sans.text-sm.sm\:text-xl {
 }
 
 
-/* .tewq {
-  font-size: 11px;
-  width: 940px;
-  padding-left: unset !important;
+
+@media only screen and (max-width: 600px) {
+
+  .text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
 }
 
-.tefef {
-  position: relative;
-  left: 110px;
-} */
+.text-sm {
+  font-size: 12px;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center !important;
+}
+
+.rwef {
+  display: none;
+}
+
+span.text-gray-500.sm\:text-sm.text-xs {
+  margin-left: 50px;
+}
+
+} 
+
+
+@media screen and (max-width: 768px) {
+  .swiper-slide {
+    width: 100% !important;
+  }
+}
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff !important;
+}

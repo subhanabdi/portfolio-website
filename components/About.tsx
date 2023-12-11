@@ -68,7 +68,7 @@ import Image from "next/image";
           </div>
           <div className="font-Header tracking-wide flex flex-row space-x-16">
 {/* First column */}
-<div className="flex flex-col space-y-4 sm:text-base text-sm">
+<div className="flex flex-col space-y-4 sm:text-base text-sm rwef">
   {technologies[0].map((tech, index) => (
     <div key={index} className="flex flex-row items-center space-x-2">
       <span className={"h-3 w-3 text-AAsecondary"}></span>
@@ -78,7 +78,7 @@ import Image from "next/image";
 </div>
 
 {/* Second column */}
-<div className="flex flex-col space-y-4 sm:text-base text-sm">
+<div className="flex flex-col space-y-4 sm:text-base text-sm rwef">
   {technologies[1].map((tech, index) => (
     <div key={index} className="flex flex-row items-center space-x-2">
       <span className={"h-3 w-3 text-AAsecondary"}></span>
@@ -88,7 +88,7 @@ import Image from "next/image";
 </div>
 
 {/* Third column */}
-<div className="flex flex-col space-y-4 sm:text-base text-sm">
+<div className="flex flex-col space-y-4 sm:text-base text-sm rwef">
   {technologies[2].map((tech, index) => (
     <div key={index} className="flex flex-row items-center space-x-2">
       <span className={"h-3 w-3 text-AAsecondary"}></span>
@@ -98,7 +98,7 @@ import Image from "next/image";
 </div>
 
 {/* Fourth column */}
-<div className="flex flex-col space-y-4 sm:text-base text-sm">
+<div className="flex flex-col space-y-4 sm:text-base text-sm rwef">
   {technologies[3].map((tech, index) => (
     <div key={index} className="flex flex-row items-center space-x-2">
       <span className={"h-3 w-3 text-AAsecondary"}></span>
@@ -108,7 +108,7 @@ import Image from "next/image";
 </div>
 
 {/* Fifth column */}
-<div className="flex flex-col space-y-4 sm:text-base text-sm">
+<div className="flex flex-col space-y-4 sm:text-base text-sm rwef">
   {technologies[4].map((tech, index) => (
     <div key={index} className="flex flex-row items-center space-x-2">
       <span className={"h-3 w-3 text-AAsecondary"}></span>
@@ -118,7 +118,7 @@ import Image from "next/image";
 </div>
 
 {/* Sixth column */}
-<div className="flex flex-col space-y-4 sm:text-base text-sm">
+<div className="flex flex-col space-y-4 sm:text-base text-sm rwef">
   {technologies[5].map((tech, index) => (
     <div key={index} className="flex flex-row items-center space-x-2">
       <span className={"h-3 w-3 text-AAsecondary"}></span>
