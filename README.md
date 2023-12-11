@@ -6,7 +6,7 @@
   <h3 align="center">Subhan Portfolio Repository</h3>
 
   <p align="center">
-    <a href="(https://subhanabidi.netlify.app/)"><strong>View The Live App »</strong></a>
+    <a href="https://subhanabidi.netlify.app/"><strong>View The Live App »</strong></a>
     <br />
     <br />
     <a href="https://github.com/subhanabdi/portfolio-website">Request Feature</a>
