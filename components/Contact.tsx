@@ -24,7 +24,7 @@ export const Contact: React.FC = () => {
             </div>
     
             <span className="text-gray-200 opacity-85 font-bold tracking-wider text-lg md:text-2xl px-3">
-            What's Next?
+            What&apos;s Next?
             </span>
             <div className="bg-gray-400 h-[0.2px] w-16 sm:w-44 md:w-80"></div>
           </section>

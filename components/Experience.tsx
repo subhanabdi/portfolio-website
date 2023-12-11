@@ -15,6 +15,15 @@ import SuperBerry from "./Descriptions/SuperBerry";
 import Turing from "./Descriptions/Turing";
 
 export default function Experience() {
+
+
+
+
+
+
+
+
+
   const barRef = React.useRef<HTMLDivElement>(null);
   // ? INFORMATIONAL control the green position using px,
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
@@ -65,7 +74,24 @@ export default function Experience() {
   );
 }
 
-const CompaniesBar = props => {
+
+interface CompanyButtonProps {
+  BarPosition: number;
+  BarAvobePosition: number;
+  DescriptionJob: string;
+  CompanyNameBackgroundColorGreen: boolean[];
+  ButtonOrderOfcompanyNameBackgroundColorGreen: number;
+  CompanyName: string;
+  setDescriptionJob: (job: string) => void;
+}
+
+interface CompaniesBarProps {
+  setDescriptionJob: (job: string) => void;
+}
+
+
+
+const CompaniesBar: React.FC<CompaniesBarProps> = (props) => {
   const [barPosition, setBarPosition] = React.useState<Number>(-8); // Green bar position by the default it's -20px
   const [barAbovePosition, setBarAbovePosition] = React.useState<Number>(0);
   const [companyNameBackgroundColorGreen, setCompanyNameBackgroundColorGreen] = React.useState<boolean[]>([
@@ -77,7 +103,8 @@ const CompaniesBar = props => {
     false,
     false,
   ]);
-  const CompanyButton = props => {
+
+  const CompanyButton: React.FC<CompanyButtonProps> = (props) => {
     return (
       <button
         onClick={() => {
