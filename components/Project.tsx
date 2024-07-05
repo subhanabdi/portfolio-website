@@ -134,19 +134,19 @@ interface ProjectData {
 }
 
 const projectsData: ProjectData[] = [
-  {
-    name: "Altos (ClientView)",
-    link: "https://app.helloaltos.com",
-    description: "Altos - an ad tracking platform (now ClientView).",
-    logos: [
-      <SiNextdotjs className="text-xl" key="next.js" />,
-      <BiLogoJavascript key="javascript" />,
-      <BiLogoReact key="react" />,
-      <BiLogoTypescript key="typescript" />,
-      <SiFramer className="text-lg" key="framer" />,
-    ],
-    imageSrc: "/altos.jpg",
-  },
+  // {
+  //   name: "Altos (ClientView)",
+  //   link: "https://app.helloaltos.com",
+  //   description: "Altos - an ad tracking platform (now ClientView).",
+  //   logos: [
+  //     <SiNextdotjs className="text-xl" key="next.js" />,
+  //     <BiLogoJavascript key="javascript" />,
+  //     <BiLogoReact key="react" />,
+  //     <BiLogoTypescript key="typescript" />,
+  //     <SiFramer className="text-lg" key="framer" />,
+  //   ],
+  //   imageSrc: "/altos.jpg",
+  // },
 
 
   {
