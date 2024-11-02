@@ -19,13 +19,13 @@ export const Socials = () => {
         <AiFillLinkedin className="transition-all duration-300 hover:scale-125" />
       </Link>
 
-      <Link href="https://www.behance.net/subhanabid1ea4n" target="blank">
+      <Link href="https://www.behance.net/subhanabid1ea4" target="blank">
         <AiFillBehanceCircle className="transition-all duration-300 hover:scale-125" />
       </Link>
 
-      <Link href="https://matching.turing.com/developer-resume-preview/76ade02e3a0f47ea54b8b01523f70c905b9ee42f36f5" target="blank">
+      {/* <Link href="https://matching.turing.com/developer-resume-preview/76ade02e3a0f47ea54b8b01523f70c905b9ee42f36f5" target="blank">
         <AiOutlineDownload className="transition-all duration-300 hover:scale-125" />
-      </Link>
+      </Link> */}
 
       <Link href="https://twitter.com/AbidiSubhan" target="blank">
         <FaXTwitter className="transition-all duration-300 hover:scale-125" />

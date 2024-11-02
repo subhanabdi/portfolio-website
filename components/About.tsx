@@ -40,8 +40,8 @@ import Image from "next/image";
         <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
           <div className="font-Header ">
           <span className="text-gray-400 ">
-  Hello! I&apos;m Subhan Abidi, a Full Stack Engineer with 5 years of experience crafting 
-  resilient web applications. Specializing in <span className="text-AAsecondary">React.js, Node.js, PHP, Python, Next.js, and TypeScript,</span>
+  Hello! I&apos;m Subhan Abidi, a Full Stack Engineer with 5+ years of experience crafting 
+  resilient web applications. Specializing in <span className="text-AAsecondary">React.js, Node.js, Django, PHP, Python, Next.js, AI, and TypeScript,</span>
   I&apos;ve contributed to diverse projects in health-tech, 
   e-commerce, and AI.
 </span>
@@ -139,7 +139,7 @@ import Image from "next/image";
           <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
             <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
             <Image
-                src="/subhan.jpg"
+                src="/saaa.png"
                 className={"object-contain rounded-lg"}
               alt="My Image Not Found"
               width={1000}
@@ -152,7 +152,7 @@ import Image from "next/image";
           <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
           <div className="absolute w-48 h-full rounded overflow-hidden">
           <Image
-                src="/subhan.jpg"
+                src="/saaa.png"
                 className={"object-contain rounded-lg"}
               alt="My Image Not Found"
               width={1000}

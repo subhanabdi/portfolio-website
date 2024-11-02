@@ -13,6 +13,7 @@ import Webilistic from "./Descriptions/Webilistic";
 import Logonado from "./Descriptions/Logonado";
 import SuperBerry from "./Descriptions/SuperBerry";
 import Turing from "./Descriptions/Turing";
+import  LDTalent from "./Descriptions/LD-Talent";
 
 export default function Experience() {
 
@@ -29,6 +30,8 @@ export default function Experience() {
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
   const GetDescription = () => {
     switch (DescriptionJob) {
+      case "LD-Talent":
+        return <LDTalent/>;
       case "Turing":
         return <Turing />;
       case "Upwork":
@@ -45,7 +48,7 @@ export default function Experience() {
         return <SuperBerry />;
     }
   };
-  const [DescriptionJob, setDescriptionJob] = React.useState("Turing");
+  const [DescriptionJob, setDescriptionJob] = React.useState("LD-Talent");
   return (
     <div id="ExperienceSection" data-aos="fade-up" className="flex flex-col items-center justify-center py-24 space-y-12 bg-AAprimary">
       {/* // ? Title "Where I've Worked" */}
@@ -162,6 +165,16 @@ const CompaniesBar: React.FC<CompaniesBarProps> = (props) => {
       {/* // ? Companies name as buttons */}
       <div className="flex flex-col md:order-2 order-1 space-y-1 pl-8 md:pl-0 ">
         <div className="flex flex-row md:flex-col">
+        <CompanyButton
+            ButtonOrderOfcompanyNameBackgroundColorGreen={0}
+            CompanyName="LD-Talent"
+            BarPosition={-12}
+            BarAvobePosition={1}
+            DescriptionJob="LD-Talent"
+            CompanyNameBackgroundColorGreen={[true,false, false, false, false, false]}
+            setDescriptionJob={props.setDescriptionJob}
+          />
+      
         <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
             CompanyName="Turing"

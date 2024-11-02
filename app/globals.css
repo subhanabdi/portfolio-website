@@ -141,3 +141,10 @@ span.text-gray-500.sm\:text-sm.text-xs {
 .swiper-pagination-bullet {
   background-color: #fff !important;
 }
+
+
+.space-x-16 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(4rem * var(--tw-space-x-reverse));
+  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+}

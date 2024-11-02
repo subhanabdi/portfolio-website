@@ -148,6 +148,149 @@ const projectsData: ProjectData[] = [
   //   imageSrc: "/altos.jpg",
   // },
 
+  {
+    name: "Crypto Ai",
+    link: "https://crypto-nextjs-lilac.vercel.app/",
+    githubLink: "https://github.com/subhanabdi/crypto-nextjs",
+    description: "Crypto Ai Web Application is a web-based platform",
+    logos: [
+      <BiLogoReact key="react" />,
+      <BiLogoTypescript key="typescript" />,
+      <BiLogoJavascript key="js" />,
+    ],
+    imageSrc: "/22.jpg",
+  },
+  
+  {
+    name: "FinTech Ai",
+    link: "https://fin-tech-ai-black.vercel.app/",
+    githubLink: "https://github.com/subhanabdi/FinTech-AI",
+    description: "FinTech Ai Web Application is a web-based platform",
+    logos: [
+      <BiLogoReact key="react" />,
+      <BiLogoTypescript key="typescript" />,
+      <BiLogoJavascript key="js" />,
+    ],
+    imageSrc: "/23.jpg",
+  },
+
+  {
+    name: "All in One AI",
+    link: "https://all-in-one-ai.vercel.app/",
+    githubLink: "https://github.com/subhanabdi/All-in-one-Ai",
+    description: "All in One AI Web Application is a web-based platform",
+    logos: [
+      <BiLogoReact key="react" />,
+      <BiLogoTypescript key="typescript" />,
+      <BiLogoJavascript key="js" />,
+    ],
+    imageSrc: "/20.jpg",
+  },
+
+  {
+    name: "Content Generator AI",
+    link: "https://content-genertor-64p2m1r66-subhanabdis-projects.vercel.app/",
+    githubLink: "https://github.com/subhanabdi/Content-Genertor-AI",
+    description: "Content Generator AI Web Application is a web-based platform",
+    logos: [
+      <BiLogoReact key="react" />,
+      <BiLogoTypescript key="typescript" />,
+      <BiLogoJavascript key="js" />,
+    ],
+    imageSrc: "/21.jpg",
+  },
+
+  // {
+  //   name: "Content Generator AI",
+  //   link: "https://content-genertor-64p2m1r66-subhanabdis-projects.vercel.app/",
+  //   githubLink: "https://github.com/subhanabdi/Content-Genertor-AI",
+  //   description: "Content Generator AI Web Application is a web-based platform",
+  //   logos: [
+  //     <BiLogoReact key="react" />,
+  //     <BiLogoTypescript key="typescript" />,
+  //     <BiLogoJavascript key="js" />,
+  //   ],
+  //   imageSrc: "/21.jpg",
+  // },
+
+
+  {
+    name: "AI Interview Application",
+    link: "https://ai-interview-brown-theta.vercel.app/",
+    githubLink: "https://github.com/subhanabdi/AI-Interview",
+    description: "AI Interview Web Application is a web-based platform",
+    logos: [
+      <BiLogoReact key="react" />,
+      <BiLogoTypescript key="typescript" />,
+      <BiLogoJavascript key="js" />,
+    ],
+    imageSrc: "/30.jpg",
+  },
+
+  {
+    name: "News Letter Web Application",
+    link: "https://news-letter-ai.vercel.app/",
+    githubLink: "https://github.com/subhanabdi/News-letter-Ai",
+    description: "News Letter Web Application is a web-based platform",
+    logos: [
+      <BiLogoReact key="react" />,
+      <BiLogoTypescript key="typescript" />,
+      <BiLogoJavascript key="js" />,
+    ],
+    imageSrc: "/25.jpg",
+  },
+
+  // {
+  //   name: "News Letter Web Application",
+  //   link: "https://news-letter-ai.vercel.app/",
+  //   githubLink: "https://github.com/subhanabdi/News-letter-Ai",
+  //   description: "News Letter Web Application is a web-based platform",
+  //   logos: [
+  //     <BiLogoReact key="react" />,
+  //     <BiLogoTypescript key="typescript" />,
+  //     <BiLogoJavascript key="js" />,
+  //   ],
+  //   imageSrc: "/25.jpg",
+  // },
+
+  {
+    name: "Mail way Ai Application",
+    link: "https://mail-way.vercel.app/",
+    githubLink: "https://github.com/subhanabdi/Mail-way",
+    description: "Mail way AI Application is a web-based platform",
+    logos: [
+      <BiLogoReact key="react" />,
+      <BiLogoTypescript key="typescript" />,
+      <BiLogoJavascript key="js" />,
+    ],
+    imageSrc: "/24.jpg",
+  },
+
+  {
+    name: "Workz-Ai Automation Application",
+    link: "",
+    githubLink: "https://github.com/subhanabdi/Workz-Ai",
+    description: "Workz-Ai Automation  Application is a web-based platform",
+    logos: [
+      <BiLogoReact key="react" />,
+      <BiLogoTypescript key="typescript" />,
+      <BiLogoJavascript key="js" />,
+    ],
+    imageSrc: "/27.jpg",
+  },
+
+  {
+    name: "Resume Builder Application",
+    link: "",
+    githubLink: "https://github.com/subhanabdi/Resume-Builder",
+    description: "Resume Builder Application is a web-based platform",
+    logos: [
+      <BiLogoReact key="react" />,
+      <BiLogoTypescript key="typescript" />,
+      <BiLogoJavascript key="js" />,
+    ],
+    imageSrc: "/26.jpg",
+  },
 
   {
     name: "Admin Dashboard Application",

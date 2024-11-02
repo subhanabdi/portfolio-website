@@ -44,7 +44,7 @@ export default function Turing() {
             Full Stack Engineer <span className="text-AAsecondary">@ Turing United States (REMOTE)</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Jan 2023 - Present</span>
+          <span className="font-mono text-xs text-gray-500">Jan 2023 - Nov 2023</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
